@@ -8,7 +8,7 @@ public class MainController {
 
 	
 	@GetMapping("/")
-	public String main() {
+	public String mainPage() {
 		System.out.println("관리자 메인페이지");
 		return "index";
 	}
